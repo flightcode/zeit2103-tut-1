@@ -5,5 +5,11 @@ public class SphereDriver {
         
         System.out.println(s1.toString());
         System.out.println(s2.toString());
+
+        s1.setDiameter(4.5);
+        s2.setDiameter(6.0);
+        
+        System.out.println(s1.toString());
+        System.out.println(s2.toString());
     }
 }

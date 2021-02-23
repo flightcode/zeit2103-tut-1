@@ -6,16 +6,16 @@ public class CombinationLock {
     }
 
     public boolean open(String input) {
-        if(input == this.combination) {
+        if(input == combination) {
             return true;
         }
         return false;
     }
 
     public boolean changeCombo(String input, String newCombo) {
-        if(this.open(input)) {
+        if(open(input)) {
             if(newCombo.length() == 3 && newCombo.matches("[0-9]+")) {
-                this.combination = newCombo;
+                combination = newCombo;
                 return true;
             }
         }
@@ -23,6 +23,6 @@ public class CombinationLock {
     }
 
     public String toString() {
-        return this.combination;
+        return combination;
     }
 }
