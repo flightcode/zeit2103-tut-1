@@ -1,0 +1,2 @@
+1. In order to perfect Efficiency, characteristics such as usability and reusability may be impacted. This may be due to a less user-friendly code having to be used in order to use minimal resources on the client machine.
+2. 
